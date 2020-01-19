@@ -1,0 +1,20 @@
+<html>
+<!-- Put this in the HTML section in JSFiddle! -->
+<head>
+<script src="https://unpkg.com/vue/dist/vue.js"></script>
+
+</head>
+<body>
+<div id="app">
+  <button v-on:click="increase">Increase</button>
+  <button v-on:click="counter++">Increase1</button>
+  <button v-on:click="counter--">Decrease</button>
+  <button v-on:click="secondCounter++">Incrase SecondCounter</button>
+  <p>Couner: {{counter}} </p>
+  <p> Result: {{result()}} | {{output}} </p>
+  <p>SecondCounter: {{secondCounter}}</p>
+</div>
+<script src="app.js">
+</script>
+</body>
+</html>

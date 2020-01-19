@@ -1,0 +1,17 @@
+<html>
+<!-- Put this in the HTML section in JSFiddle! -->
+<head>
+<script src="https://unpkg.com/vue/dist/vue.js"></script>
+
+</head>
+<body>
+<div id="app">
+ <button v-on:click="changeLink">Click to Change Link</button>
+ <button @click="changeLink">Click to Change Link</button>
+ <a v-bind:href="link"></a>
+ <a :href="link"></a>
+</div>
+<script src="app.js">
+</script>
+</body>
+</html>
